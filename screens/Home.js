@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { View, Text,SafeAreaView } from 'react-native'
 import React from 'react'
+import HeaderTags from '../components/HeaderTags'
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView>
+      <HeaderTags/>
+    </SafeAreaView>
   )
 }
