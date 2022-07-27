@@ -6,6 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>KP Lets get this shit Running</Text>
       <Text>Wrote this Text</Text>
+      <Text>Still Trying</Text>
       <Text>Another Change</Text>
       <StatusBar style="auto" />
     </View>
